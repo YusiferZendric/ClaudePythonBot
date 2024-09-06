@@ -1,20 +1,24 @@
 import requests
 import os
 import threading
-import json
 import time
 def sc():
     os.system("node clewd.js")  # starts the endpoint
 
 a = threading.Thread(target=sc)
 a.start()
-time.sleep(3)
+
 url = "http://127.0.0.1:8444/v1/chat/completions"
 headers = {
     "Content-Type": "application/json"
 }
 
-messages = []
+time.sleep(3)
+assistant_personality = input("Set the assistant's personality and identity: ")
+
+messages = [
+    {"role": "system", "content": f"Roleplay as {assistant_personality}"}
+]
 
 while True:
     user_input = input("You: ")
