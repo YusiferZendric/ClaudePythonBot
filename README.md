@@ -1,4 +1,4 @@
-# Main.py Script for Clewd
+# ClaudePythonBot
 
 This script provides a customized AI assistant using the Clewd project. Follow the instructions below to set up and run the script.
 
@@ -32,5 +32,3 @@ This script provides a customized AI assistant using the Clewd project. Follow t
 - **Customized AI Assistant**: Set the personality and identity of the assistant.
 - **Interactive Chat**: Engage in a conversation with the AI.
 - **Exit Command**: Type `exit` to end the chat.
-
-## Example Usage
