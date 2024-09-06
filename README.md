@@ -1,29 +1,36 @@
-# ClaudePythonBot
+# Main.py Script for Clewd
 
-ClaudePythonBot is a Python-based AI assistant that leverages the Claude AI model for engaging and intelligent conversations.
+This script provides a customized AI assistant using the Clewd project. Follow the instructions below to set up and run the script.
 
 ## Prerequisites
 
-1. Follow and download [clewd](https://gitgud.io/ahsk/clewd) from the original author.
+1. Download the Clewd project from the original author [here](https://gitgud.io/ahsk/clewd).
 2. Ensure you have Python and Node.js installed on your system.
 
-## Installation
+## Setup
 
-1. Clone the clewd repository:
+1. Clone the Clewd repository:
     ```sh
     git clone https://gitgud.io/ahsk/clewd.git
     ```
-2. Navigate to the clewd directory:
+2. Navigate to the Clewd directory:
     ```sh
     cd clewd
     ```
-3. Place the `main.py` file in the clewd directory.
+3. Place the `main.py` script in the Clewd directory.
 
-## Usage
+## Running the Script
 
-1. Run the script:
+1. Start the script:
     ```sh
     python main.py
     ```
-2. Start chatting with the AI assistant. Type your messages and press Enter.
-3. To exit the chat, type `exit` and press Enter.
+2. Follow the prompts to set the assistant's personality and interact with the AI.
+
+## Features
+
+- **Customized AI Assistant**: Set the personality and identity of the assistant.
+- **Interactive Chat**: Engage in a conversation with the AI.
+- **Exit Command**: Type `exit` to end the chat.
+
+## Example Usage
